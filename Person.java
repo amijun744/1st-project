@@ -1,4 +1,4 @@
-public class Person {
+public class Person implements Nameable{
     String name="unknown";
     int age;
     int id;
@@ -44,5 +44,10 @@ public class Person {
             return false;
         }
     }
-
+    @Override
+    public String getCorrectName() {
+        return name;
+    }
 }
+
+

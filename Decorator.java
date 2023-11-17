@@ -6,7 +6,7 @@ public abstract class Decorator implements Nameable {
     }
 
     @Override
-    public String getCorrectName() {
-        return nameable.getCorrectName();
+    public String correct_name() {
+        return nameable.correct_name();
     }
 }
